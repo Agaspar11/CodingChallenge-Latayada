@@ -1,0 +1,119 @@
+.image1 {
+    padding-right: 2%;
+    float: left;
+    width:100%;
+    height:auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.image2 {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.heading {
+    padding-top: 1%;
+}
+
+strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+th {
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    width:67%;
+    text-align: left;
+    margin-left: 0;
+}
+
+.checked {
+    color: orange;
+  }
+
+.foot {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 26px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -9px;
+    }
+
+p, td {
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.about {
+    margin-top: -27px;
+}
+
+ul {
+    list-style-type: none;
+    }
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+}    
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+.image1 {
+    margin-left: 50px;
+}
+
+hr {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+* {
+    color: rgb(0, 0, 0);
+}
+
+
+/*@media (min-width:600px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. }
+
+.image1 {
+    margin-left: 30%;
+}
+
+h1,p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.image2 {
+    height: 1281.933px;
+width: 599px;
+}
+
+@media only screen and (min-width: 768px) {/*for tablets}
+
+.image2 {
+    width: 722px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
